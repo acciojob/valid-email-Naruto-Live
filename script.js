@@ -1,5 +1,7 @@
 function validEmail(str) {
-  //your JS code here.
+	let reg = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/
+	let test = reg.test(str)
+	return test;
 }
 
 // Do not change the code below.
